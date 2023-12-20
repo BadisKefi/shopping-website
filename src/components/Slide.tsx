@@ -32,7 +32,7 @@ const Slide: React.FC<propsType> = ({ img, title, mainTitle, price }) => {
         src={img}
         alt="banner"
         width={2000}
-        height={2000}
+        height={520}
       />
     </div>
   );
