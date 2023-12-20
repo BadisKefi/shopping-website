@@ -30,7 +30,7 @@ const HeaderTop = () => {
             <select
               name="currency"
               id="currency"
-              className="text-gray-500 text-[12px] w-[70px]"
+              className="text-gray-500 text-[12px] w-[70px] cursor-pointer"
             >
               <option value="USD $">USD $</option>
               <option value="EUR £">EUR £</option>
@@ -39,7 +39,7 @@ const HeaderTop = () => {
             <select
               name="language"
               id="language"
-              className="text-gray-500 text-[12px] w-[80px]"
+              className="text-gray-500 text-[12px] w-[80px] cursor-pointer"
             >
               <option value="English">English</option>
               <option value="French">French</option>
